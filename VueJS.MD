@@ -9,7 +9,7 @@
         videoUrl() {
           this.handleFileChange();
         },
-      },
+      }
     ```
     >In the above example the watch option is being used to monitor changes to the videoUrl property and trigger the
     >handleFileChange method whenever videoUrl changes.
