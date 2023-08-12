@@ -2,8 +2,8 @@
 <p align="center"> Get to know about VUE building the platform</p>
 
 ## VUE Lifcycle:
-1. Creation Phase:
-functions present: 
+1. Creation Phase:\
+functions present:\
 beforeCreate: Called synchronously after the instance has just been initialized.
 created: Called synchronously after the instance has been created.
 
