@@ -3,7 +3,7 @@
 
 ## VUE Basics
 1. refractive vs ref
-2. The <bold>watch</bold> option in a Vue is used to observe changes to a specific property and execute a function when that property changes. 
+2. The __watch__ option in a Vue is used to observe changes to a specific property and execute a function when that property changes. 
     ```
     watch: {
         videoUrl() {
