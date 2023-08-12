@@ -5,22 +5,22 @@
 1. Creation Phase:\
     functions present:\
         beforeCreate: Called synchronously after the instance has just been initialized.\
-        created: Called synchronously after the instance has been created.\
+        created: Called synchronously after the instance has been created.
 
 2. Mounting Phase:\
     functions present:\
         beforeMount: Called right before the component is mounted to the DOM.\
-        mounted: Called after the component has been mounted to the DOM.\
+        mounted: Called after the component has been mounted to the DOM.
 
 3. Updating Phase:\
-    functions present:\ 
+    functions present:\
         beforeUpdate: Called when the data changes, just before the virtual DOM and DOM are patched.\
-        updated: Called after the data changes and the virtual DOM and DOM have been patched.\
+        updated: Called after the data changes and the virtual DOM and DOM have been patched.
 
 4. Destruction Phase:\
     functions present:\
         beforeDestroy: Called right before the instance is destroyed.\
-        destroyed: Called after the instance is destroyed.\
+        destroyed: Called after the instance is destroyed.
 
 ## VUE Basics
 1. refractive vs ref
