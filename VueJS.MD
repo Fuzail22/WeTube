@@ -42,4 +42,5 @@
     });
     ```
     >in the above example,  the created function was used to set up an event listener (eventBus.$on) within the
-    >VideoPlayerComponent. This event listener would start listening for the "update-subtitles-url" event as soon as the         >component is created.
+    >VideoPlayerComponent. This event listener would start listening for the "update-subtitles-url" event as soon as the
+    >component is created.
