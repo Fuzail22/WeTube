@@ -50,5 +50,16 @@ def update_subtitles():
         return jsonify(error=str(e)), 500
 
 
+@app.route('/getvideos/:name')
+def get_videos():
+    videos_path = 'uploads\\videos\\{req.params.name}'
+    return send_file(videos_path, mimetype='text/vtt')
+
+
+@app.route('/')
+def endpoint():
+    return "Home endpoint"
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)

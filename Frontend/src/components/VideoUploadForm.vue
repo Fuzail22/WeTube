@@ -8,8 +8,14 @@
 import axios from "axios";
 
 export default {
+  // data() {
+  //   return {
+  //     sub: "",
+  //   };
+  // },
   methods: {
     handleFileChange(event) {
+      const sub = "";
       event.preventDefault();
       const file = event.target.files[0];
       this.$emit("file-uploaded", file);
@@ -26,6 +32,17 @@ export default {
         })
         .catch((error) => {
           console.error("Error uploading video:", error);
+        });
+      axios
+        .post("http://127.0.0.1:8000/update-subtitles", {
+          subtitlesContent: sub,
+        })
+        .then((response) => {
+          console.log("Subtitles updated:", response.data);
+          this.$emit("subtitle-updated");
+        })
+        .catch((error) => {
+          console.error("Error updating subtitles:", error);
         });
     },
   },
