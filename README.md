@@ -22,8 +22,23 @@
    ```
    > to check installation ```python3 --version```
 6. Now we need to install a virtual environment to keep our packaga installations local to a specific env instead of global.
-   ```
-   
+   1. To create a python virtual environment we need venv package, to install
+      ```
+      sudo apt install python3-venv
+      ```
+   2. To create virtual env goto project directory then,
+      ```
+      python3 -m venv venvwetube
+      ```
+   3. To activate our virtual environment
+      ```
+      source venvwetube/bin/activate
+      ```
+   4. To deactivate and get back to global environment
+      ```
+      deactivate
+      ```
+7. 
    
 ### Status Codes
 1. 304 - The "304 Not Modified" status code is returned when the client (usually a web browser) makes a request for a resource that the server considers to be unchanged since the last time it was requested. The server then sends a response indicating that the client's cached version of the resource is still valid and can be used.
