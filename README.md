@@ -1,9 +1,11 @@
 <h1 align="center"> WeTube</h1>
 <p align="center"> A video sharing platform where individuals can upload their video along with subtitles on specific timestamps and can view the videos on the platform with subtitles.</p>
 
+
 ### Prototype Video
 * Want to watch how it works?
    * Click [here](https://www.loom.com/share/90fb46efbe9f4aa3b712200164f075aa?sid=cf86ee39-f933-4078-8f05-af9c790e9dd4)
+   * ![Frontend](FrontendSmall.png)
 ## Deploying Backend
 1. Create Amazon EC2 instnace Ubuntu (ofcourse free tire 😉).
    >Download the .pem key during the process.
