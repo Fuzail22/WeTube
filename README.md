@@ -2,7 +2,7 @@
 <p align="center"> A video sharing platform where individuals can upload their video along with subtitles on specific timestamps and can view the videos on the platform with subtitles.</p>
 
 ## Deploying Backend
-1. Create Amazon EC2 instnace Ubuntu ( ;-) ofcourse free tire ).
+1. Create Amazon EC2 instnace Ubuntu (ofcourse free tire 😉).
    >Download the .pem key during the process.
 2. Using Putty gen convert the key.
    >For connecting with putty in windows we need the key to be in ppk form.
@@ -11,7 +11,7 @@
 3. Connect with the ec2 instance using putty.
    > Default user name is <strong>ubuntu</strong>
 4. Use [WinSCP](https://winscp.net/eng/index.php) to transfer our files to our remote ec2 instance.
-   > In WinSCP the login can be done using the saved configuration from Putty.
+   > In WinSCP the login can be done using the saved configuration from Putty.\
    > Transfering files is simple drag and drop
 5. After trasnfering files install python3.10
    ```
