@@ -5,7 +5,7 @@
 ### Prototype Video
 * Want to watch how it works?
    * Click [here](https://www.loom.com/share/90fb46efbe9f4aa3b712200164f075aa?sid=cf86ee39-f933-4078-8f05-af9c790e9dd4)
-   * ![Frontend](FrontendSmall.png)
+   * ![Frontend](frontendsmall.png)
 ## Deploying Backend
 1. Create Amazon EC2 instnace Ubuntu (ofcourse free tire 😉).
    >Download the .pem key during the process.
