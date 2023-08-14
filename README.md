@@ -45,7 +45,21 @@
    ```
    python3 install Flask-Cors==4.0.0
    ```
-   
+8. to run the server locally,
+   ```
+   python3 server.py
+   ```
+## Exposing to the internet
+1. install apache
+   ```
+   sudo apt-get install apache2
+   ```
+   > check if the apache server works by accessing the public DNS of ec2 instance.
+2. install wsgi
+   ```
+   sudo apt-get install libapache2-mod-wsgi-py3
+   ```
+3. 
 ### Status Codes
 1. 304 - The "304 Not Modified" status code is returned when the client (usually a web browser) makes a request for a resource that the server considers to be unchanged since the last time it was requested. The server then sends a response indicating that the client's cached version of the resource is still valid and can be used.
 This behavior is due to the client sending an If-Modified-Since header in its request, indicating the timestamp of the version it currently has cached. If the server determines that the resource hasn't been modified since that timestamp, it returns a "304 Not Modified" response instead of the actual content, saving both bandwidth and processing time.
