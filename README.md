@@ -38,7 +38,13 @@
       ```
       deactivate
       ```
-7. 
+7. Install the following packages required inside the virtuak env
+   ```
+   python3 install Flask==2.3.2
+   ```
+   ```
+   python3 install Flask-Cors==4.0.0
+   ```
    
 ### Status Codes
 1. 304 - The "304 Not Modified" status code is returned when the client (usually a web browser) makes a request for a resource that the server considers to be unchanged since the last time it was requested. The server then sends a response indicating that the client's cached version of the resource is still valid and can be used.
